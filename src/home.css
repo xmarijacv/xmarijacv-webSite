@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    background: url("img/homepage.jpg")  repeat-y;
+
+}
+.slikicka
+{
+    width: 900px;
+    height: 190px;
+    margin-top: 0px;
+    margin-left: -10px;
+}
+nav {
+    background-color: pink;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+nav-brand {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+nav:hover {
+    color: #f8f8f8;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin-left: 20px;
+}
+
+nav li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+nav a:hover {
+    color: purple;
+}
+.slikicka
+{
+    float: left;
+    width: 1530px;
+    margin-right: 0px;
+    height: 200px;
+}
+.slikicka1
+{
+    height: 200px;
+    width: 200px;
+}
+.me
+{
+    height: 600px;
+    width: 800px;
+}
+
+.slikicka1
+{
+    float: left;
+}
+#first
+{
+    float: left;
+    width: 60%;
+    font-family: Verdana;
+    padding-top: 150px;
+
+}
+#me
+{
+    margin-left: 50px;
+    text-align: left;
+    color: purple;
+    padding-top: 0px;
+}
+.jas {
+    display: inline-block;
+    width: 500px;
+    height: 700px;
+}

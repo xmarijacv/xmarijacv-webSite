@@ -1,0 +1,104 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    background: url("img/homepage.jpg")  repeat-y;
+
+}
+.slikicka
+{
+    width: 600px;
+    height: 190px;
+    margin-top: 0px;
+    margin-left: -10px;
+}
+nav {
+    background-color: pink;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+nav-brand {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+nav:hover {
+    color: #f8f8f8;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin-left: 20px;
+}
+
+nav li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+nav a:hover {
+    color: purple;
+}
+.slikicka
+{
+    float: left;
+    width: 1530px;
+    margin-right: 0px;
+    height: 200px;
+}
+.tekst
+{
+    float: left;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.tekst p{
+    color: white;
+    font-family: Verdana;
+}
+.bunny
+{
+    width: 300px;
+    height: 600px;
+    float: right;
+}
+.list{
+    background: url("img/notes.png") no-repeat;
+    height: 320px;
+}
+.tekst ul li{
+    text-decoration: none;
+    font-family: Verdana;
+    list-style-type: circle;
+    margin-top: 10px;
+}
+.list1
+{
+    padding-top: 80px;
+    padding-left: 30px;
+}
+.tekst ul li a
+{
+    text-decoration: none;
+    color: darkmagenta;
+}
+.tekst ul li a:hover
+{
+    color: white;
+}

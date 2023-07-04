@@ -1,0 +1,118 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    background: url("img/homepage.jpg")  repeat-y;
+    box-sizing: border-box;
+    margin-inline: auto;
+
+}
+.slikicka
+{
+    width: 600px;
+    height: 190px;
+    margin-top: 0px;
+    margin-left: -10px;
+}
+nav {
+    background-color: pink;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+nav-brand {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+nav:hover {
+    color: #f8f8f8;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin-left: 20px;
+}
+
+nav li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+nav a:hover {
+    color: purple;
+}
+.slikicka {
+    float: right;
+    width: 1530px;
+    margin-right: 0px;
+    height: 200px;
+}
+.section1
+{
+    display: block;
+    width: 100%;
+    height: 350px;
+    background: lightpink;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+}
+.section1 p{
+    width: 90%;
+    margin-left: 50px ;
+    margin-right: 50px;
+    font-family: Verdana;
+    font-size: 14px;
+    color: purple;
+}
+.section2
+{
+    display: block;
+    width: 100%;
+    height: 350px;
+    margin-top: 20px;
+    padding-top: 30px;
+    background: violet;
+    padding-bottom: 30px;
+    padding-left: 20px;
+}
+.section2 p{
+    width: 90%;
+    margin-left: 50px ;
+    margin-right: 50px;
+    font-family: Verdana;
+    font-size: 14px;
+    color: purple;
+}
+.item1 {
+    width: 330px;
+    height: 210px;
+    border-radius: 15px;
+    float: left;
+    margin-right: 20px;
+}
+
+.item2 {
+    border-radius: 15px;
+    width: 400px;
+    height: 300px;
+    float: right;
+    margin-left: 50px;
+    padding-right: 120px;
+}

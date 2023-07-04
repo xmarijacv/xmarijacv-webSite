@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    background: url("img/homepage.jpg")  repeat-y;
+
+}
+.slikicka
+{
+    width: 600px;
+    height: 190px;
+    margin-top: 0px;
+    margin-left: -10px;
+}
+nav {
+    background-color: pink;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+nav{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+nav:hover {
+    color: #f8f8f8;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin-left: 20px;
+}
+
+nav li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+nav a:hover {
+    color: purple;
+}
+.slikicka
+{
+    float: left;
+    width: 1530px;
+    margin-right: 0px;
+    height: 200px;
+}
+.hr {
+    margin:0 150px;
+}
+div img {
+    width: 100%;
+}
+
+.karticki {
+    text-align:left;
+    padding: 15px;
+    background-color: white;
+    width: 19%;
+    overflow-x: hidden;
+    border-radius: 14px;
+    float:left;
+    margin-left: 5%;
+    margin-top: 5%;
+    color: purple;
+    font-family: Verdana;
+    font-size: 13px;
+}
+.section {
+    width:85%;
+    margin:0 auto;
+}
+footer
+{
+    display: inline-block;
+    width: 100%;
+    margin-top: 20px;
+}
